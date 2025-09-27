@@ -107,10 +107,159 @@ a {
 /* container 2 starts here */
 
 
+.container-2 {
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.container-2 img {
+    height: 100px;
+    width: auto;
+}
+
+.container-2 .inner-container {
+    align-items: center;
+    flex: 1 0 auto;
+    gap: 20px;
+}
+
+.container-2 h1 {
+    font-family: "Roboto", sans-serif;
+    color: #272d39;
+}
+
+.text-and-images-collection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-and-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    padding: 25px;
+}
+
+.text-and-image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.text-and-image p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #6f7680;
+    text-align: center;
+}
 
 
+/*container-3 starts here*/
 
 
+.container-3 {
+    background-color: #e3e4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-3 .inner-container {
+    max-width: 750px;
+}
+
+.container-3 .quote {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.container-3 .attribution {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: end;
+    margin-top: 0;
+}
 
 
+/*container-4 starts here*/
 
+
+.container-4 {
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-4 .inner-container {
+    max-width: 1150px;
+    flex: 1;
+}
+
+.container-4 .inner-container .blue-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5a83f0;
+    padding: 50px 150px 50px 150px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.text-container h1, .text-container p {
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+}
+
+.text-container h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.blue-box .text-container p{
+    margin: 2px;
+    font-size: 19px;
+}
+
+.blue-box button {
+    border-radius: 5px;
+    display: inline;
+    border-style: solid;
+    border-color: white;
+    background-color: #5a83f0;
+    padding: 8px 28px 8px 28px;
+
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+
+/*footer starts here*/
+
+
+.footer {
+    background-color: #272d39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
